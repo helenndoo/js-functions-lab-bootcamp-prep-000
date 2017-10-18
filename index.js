@@ -3,9 +3,12 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo() {
-  return string('Happy holidays, ${name}!')
+  return 'Happy holidays, ${name}!'
 }
 
 function happyHolidaysTo() {
   return string('Happy ${holiday}, ${name}!')
+}
+function holidayCountdown() {
+  return string('It's ${days} days until ${holiday}!'
 }
